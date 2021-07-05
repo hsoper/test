@@ -127,8 +127,9 @@ def make_barChart(dataframe, titles, values, x_label, graph_title):
 
 
 # make_barChart(coin, 'Coin', 'PriceUSD', 'Prices',
-#               "Some Crypto with their prices")
+#              "Some Crypto with their prices")
 # coin = get_table('crypto','CoinPrices')
 print(coin['PriceUSD'].mean())
 print(coin['PriceUSD'].median())
 print(coin['PriceUSD'].value_counts())
+print(coin)
